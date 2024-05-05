@@ -5,12 +5,12 @@
 This repository contains the collaborative project work of Aashray Puri, Isaac Madera, and Raymond Hung. , centered on comprehending domestic flight patterns within the US airline industry. Enclosed within are assorted Jupyter notebooks, datasets, code implementations, and documentation reflecting our combined exploration of various visualization techniques, methodologies, and the extraction of insightful conclusions.
 
 ### US Domestic Air Travel Trends & Data Analysis
-This study utilizes pre-trained LLMs to generate headlines from social media posts, emphasizing accuracy and engagement. By employing models like PEGASUS, T5, and BART on Reddit data, we aim to preserve semantic content while enhancing summarization. Evaluation metrics, including ROUGE, BLEU, and semantic similarity scores, alongside human feedback, highlight the T5 model's superior performance. Despite computational constraints and model-specific challenges, our research underscores the importance of innovative approaches to evaluation of headline generation from user-generated content.
+The document offers a comprehensive exploration of US domestic air travel data through extensive exploratory data analysis (EDA), focusing on flight trends, cancellations, delays, and weather patterns. It begins by discussing the datasets used, including data pre-processing and cleanup procedures. The analysis covers trends over time, flight volume, popular and least popular airports and airlines, and the impact of weather conditions on flight operations.
 
 ### Project Contents
 
 - The [notebooks](/notebooks/) directory contains all the Jupyter notebooks used during the project, including those for data exploration.
 
-- The [data](/data/) directory houses all the raw data files utilized in our analysis, as well as the processed datasets and any intermediary results generated during the project.
-
 - Our [final project write-up](/Project_2_Puri_Madera_Hung_Final_Report.pdf/) provides a comprehensive overview of our research, methodologies, findings, and conclusions. 
+
+- The core datasets utilized are sourced from [Kaggle]([url](https://www.kaggle.com/datasets/robikscube/flight-delay-dataset-20182022?resource=download&select=Combined_Flights_2022.csv)), with the original data provided by the US Department of Transportation (USDOT). These datasets cover US domestic flight data from January 2018 to July 2022. The study concentrates on Kaggle's datasets from 2019 to 2021 due to inconsistencies in the datasets for 2018 and 2022. Additionally, three supplementary datasets are incorporated: airline name data for code adjustments, airport geographical information for mapping purposes, and weather data for the top 10 airports with the highest number of flight departures in 2021 to analyze the impact of weather on domestic US air travel.
