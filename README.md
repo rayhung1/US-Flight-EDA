@@ -7,6 +7,9 @@ This repository contains the collaborative project work of Aashray Puri, Isaac M
 ### US Domestic Air Travel Trends & Data Analysis
 The document offers a comprehensive exploration of US domestic air travel data through extensive exploratory data analysis (EDA), focusing on flight trends, cancellations, delays, and weather patterns. It begins by discussing the datasets used, including data pre-processing and cleanup procedures. The analysis covers trends over time, flight volume, popular and least popular airports and airlines, and the impact of weather conditions on flight operations.
 
+![Flight Heatmap](img/flight-heatmap.png)
+
+
 ### Project Contents
 
 - The [notebooks](/notebooks/) directory contains all the Jupyter notebooks used during the project, including those for data exploration.
